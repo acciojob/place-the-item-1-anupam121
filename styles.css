@@ -7,10 +7,16 @@
 #container{
 	display:flex;
 	justify-content:space-between;
+	
+}
+#container1{
+	display:flex;
+	
+	margin:30px;
 }
 .red{
 	background-color:red;
-	
+	justify-content:reverse-row;
 	font-size:40px;
 }
 .blue{
