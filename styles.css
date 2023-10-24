@@ -17,7 +17,6 @@
 }
 .red{
 	background-color:red;
-	justify-content:reverse-row;
 	font-size:40px;
 	order:2;
 }
