@@ -1,7 +1,8 @@
 .box{
 	width:100px;
-	height:100px;
+	height:80px;
 	border:5px;
+	margin:2px;
 	
 }
 #container{
@@ -11,22 +12,25 @@
 }
 #container1{
 	display:flex;
-	
 	margin:30px;
+	flex-wrap:wrap;
 }
 .red{
 	background-color:red;
 	justify-content:reverse-row;
 	font-size:40px;
+	order:2;
 }
 .blue{
 	
 	background-color:blue;
 	font-size:40px;
+	order:3;
 }
 .green{
 	
 	background-color:green;
 	font-size:40px;
+	order:1;
 }
 
